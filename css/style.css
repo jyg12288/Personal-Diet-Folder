@@ -1,0 +1,269 @@
+/* #header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;    
+    text-align: center;
+    background-color: #fff;
+    z-index: 100;
+}
+
+#header h1 {
+    font-size: 18px;
+    color: rgb(41, 128, 185);
+    font-weight: 600;
+}
+
+#header .back-btn {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    background: url('../img/back_btn.png') no-repeat center center;
+    background-size: 20px;
+}
+
+.inner{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+} */
+
+#section {
+  min-height: 100vh;
+  padding-bottom: 64px;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.writer-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.writer-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(224, 224, 224);
+}
+
+.writer-name {
+  margin-left: 10px;
+}
+
+.post-photo {
+  width: 100%;
+  height: 295px;
+  background-color: rgb(224, 224, 224);
+}
+
+.reply-title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.reply-title > span {
+  background: url("../img/bubble.png") no-repeat right top;
+  background-size: 20px auto;
+  padding-right: 25px;
+}
+
+
+.fc .fc-toolbar.fc-header-toolbar {
+  padding-top: 15px;
+  font-size: 10px;
+}
+
+.fc .fc-toolbar-title {
+  padding-left: 15px;
+}
+
+.tab-wrapper {
+  margin-top: 30px;
+}
+
+.tab-wrapper .tab-title {
+  font-weight: bold;
+  color: #808080;
+  padding-bottom: 15px;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.tab-content li.active {
+  color: #fff;
+  background-color: #2fcc6f;
+}
+
+.tab-content li {
+  cursor: pointer;
+  width: 18%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  color: #5e5e5e;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.tab-scroll {
+  margin-top: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #e0e0e0;
+  position: relative;
+}
+
+.tab-scroll-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  width: 18%;
+  background-color: #2fcc6f;
+  border-radius: 50px;
+}
+
+.btn-wrapper {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 0;
+}
+
+.btn-wrapper button {
+  font-size: 16px;
+  width: 49%;
+  height: 50px;
+  font-weight: 600;
+  color: #ffff;
+  border-radius: 7px;
+}
+
+.btn-wrapper button:nth-child(1) {
+  background-color: #bebebe;
+}
+
+.btn-wrapper button:nth-child(2) {
+  background-color: #444444;
+  margin-left: 2%;
+}
+
+.photo {
+  height: 300px;
+  border: 1px solid #bebebe;
+  background-color: #ffff;
+  position: relative;
+}
+
+#chooseFile {
+  visibility: hidden;
+}
+
+.addImg {
+  position: absolute;
+  width: 20%;
+  height: 50px;
+  background-image: url("../img/addImg.png");
+  background-repeat: no-repeat;
+  background-size: 50px auto;
+  top: 45%;
+  left: 45%;
+  cursor: pointer;
+}
+
+.menu {
+  padding-top: 15px;
+}
+
+.menu ul {
+  list-style: inside;
+}
+
+.food-wrapper {
+  margin-top: 40px;
+}
+
+.food-wrapper h3 {
+  font-weight: 600;
+  color: #808080;
+}
+
+.food-img {
+  width: 20%;
+  height: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+  float: left;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url("../img/search.png");
+  box-sizing: border-box;
+}
+
+.food-search {
+  margin-top: 15px;
+}
+
+.food-search input {
+  display: block;
+  width: 80%;
+  height: 50px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #ffff;
+  background-size: 30px auto;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-image: url("../img/mic.png");
+  box-sizing: border-box;
+}
+
+.food-table {
+  margin-top: 20px;
+  width: 100%;
+  border-top: 1px solid #4444;
+  border-collapse: collapse;
+}
+
+.food-table th {
+  background-color: #e0e0e0;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.food-table td {
+  padding: 10px;
+}
+
+.food-table th,td {
+  border-bottom: 1px solid #4444;
+  text-align: center;
+}
+
+.food-btn {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  color: #808080;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+}
