@@ -13,8 +13,9 @@ select * from food_ingr_egg_milk;
 select * from food_ingr_fruit;
 select * from food_ingr_nut;
 select * from food_ingr_seafood;
+select * from food_ingr_meat;
 
-# 테마별 -> 재료별 견과류 중복
+# 테마별 -> 재료별 견과류, 칼로리별 저칼로리 중복
 select * from food_theme_low_fat;
 SELECT * from food_theme_vegetarian;
 select * from food_theme_vegan;
@@ -29,20 +30,21 @@ SELECT *
 from food
 WHERE id IN('D000085', 'D011089', 'D018338', 'P036246', 'D018359');
 
-CREATE VIEW food_calo_100_200 AS
+CREATE or replace view food_calo_100_200 AS
 SELECT *
 FROM food
-WHERE id IN('D000117', 'D000178', 'D012151', 'D018490', 'P087028');
+WHERE id IN('D000117', 'D000178', 'D012151', 'D018833', 'P087028');
 
-CREATE VIEW food_calo_200_300 AS
+
+CREATE or replace VIEW food_calo_200_300 AS
 SELECT *
 from food
-where id IN ('D000012', 'D000017', 'D000038', 'D000076', 'D018512');
+where id IN ('D000012', 'D018430', 'D000038', 'D000345', 'D018512');
 
-CREATE VIEW food_calo_300_400 AS
+CREATE or replace VIEW food_calo_300_400 AS
 SELECT * 
 FROM food
-where id IN ('D000011', 'D018410', 'D018475', 'D000076', 'D018369');
+where id IN ('D000011', 'D018410', 'D018475', 'D000156', 'D018369'); 
 
 CREATE VIEW food_calo_400_500 AS
 SELECT * 
@@ -90,6 +92,11 @@ CREATE VIEW food_ingr_seafood AS
 SELECT * 
 FROM food
 where id IN ('D000030', 'D000229', 'D000406', 'D018445', 'D018247');
+
+create view food_ingr_meat as
+select *
+from food
+where id in ('D000297', 'D000206', 'D018434', 'D018846', 'D018022');
 
 -- ----------------------------------
 
