@@ -18,6 +18,13 @@ import ModifyNotPreferenceView from '../views/ModifyNotPreferenceView.vue'
 import MainView from '../views/MainView.vue'
 import detailMenu from '../views/detailMenu.vue'
 import MorningView from '../views/ClickMenu_Morning.vue'
+import Recommend from '../views/RecommendView.vue'
+import CategoryDetail from '../views/CategoryDetailView.vue'
+import categoryView from '../views/CategoryView.vue'
+import gandan from '../views/gandanView.vue'
+import community_View from '../views/community.vue'
+import detailInput from '../views/detail.vue'
+import calender_View from '../views/CalenderView.vue'
 
 Vue.use(VueRouter)
 
@@ -107,6 +114,45 @@ export const routes = [
     path : '/morningView',
     name : 'morning',
     component : MorningView
+    
+  },
+  {
+    path : '/RecommendView',
+    name : 'RecommendView',
+    component : Recommend
+  },
+  {
+    path : '/category',
+    name : 'category',
+    component : categoryView
+  },
+  {
+    path : '/CategoryDetailView',
+    name : 'CategoryDetailView',
+    component : CategoryDetail
+  }
+  ,
+  {
+    path : '/gandanView',
+    name : 'gandanView',
+    component : gandan
+  }
+  ,
+  {
+    path : '/communityView',
+    name : 'communityView',
+    component : community_View
+  }
+  ,
+  {
+    path : '/detailInputView',
+    name : 'detailInputView',
+    component : detailInput
+  },
+  {
+    path : '/calenderView',
+    name : 'calenderView',
+    component : calender_View
   }
 ]
 

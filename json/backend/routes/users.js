@@ -167,16 +167,21 @@ router.post('/Modify5', function(req, res){
     'age' : req.body.user.age,
     'height' : req.body.user.height,
     'weight' : req.body.user.weight,
-    'not_preference' : req.body.user.not_preference,
+    'not_meat' : req.body.user.not_meat,
+    'not_egg' : req.body.user.not_egg,
+    'not_daily_product' : req.body.user.not_daily_product,
+    'not_seafood' : req.body.user.not_seafood,
+    'not_fruit' : req.body.user.not_fruit,
+    'not_crustacean' : req.body.user.not_crustacean,
   };
   connection.query('SELECT userid FROM users WHERE userid = "' + user.userid + '"', function (err, row) {
   if(row[0] !== undefined){ //동일한 아이디가 있을 경우
-    connection.query('UPDATE users SET not_preference = "'+user.not_preference+'" where userid = "'+ user.userid +'" ', user, function (err, row2) {
+    connection.query('UPDATE users SET not_meat = "'+user.not_meat+'" , not_egg = "'+user.not_egg+'" ,not_daily_product = "'+user.not_daily_product+'" ,not_seafood = "'+user.not_seafood+'" ,not_fruit = "'+user.not_fruit+'" ,not_crustacean = "'+user.not_crustacean+'" where userid = "'+ user.userid +'" ', user, function (err, row2) {
       if (err) throw err;
     });
     res.json({
       success: false,
-      message: 'not_preference 수정 성공'
+      message: '선호하지 않은 식단 수정 성공'
     })
   }
   });

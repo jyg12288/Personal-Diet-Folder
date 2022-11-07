@@ -13,7 +13,6 @@
                 <input type="radio" id="남성" value="남성" v-model="user.gender" :onclick='btnActive()'> <label for="남성" @click="Modify1">남성</label>
                 <input type="radio" id="여성" value="여성" v-model="user.gender" :onclick='btnActive()'> <label for="여성"  @click="Modify1">여성</label>
             </div>
-            <span>{{user.gender}}</span>
 
             
             <div style="text-align: center; padding-top: 80px;">
@@ -76,7 +75,7 @@ input[type=radio]{
 input[type=radio]+label{
     display : inline-block;
     height : 150px;
-    width : 150px;
+    width : 140px;
     border : 1px solid #cacaca;
     border-radius : 30px;
     text-align: center;
@@ -104,7 +103,7 @@ input[type=radio]:checked+label{
     background-color: #f0f0f0;
     border-radius: 10px;
     box-shadow: inset 3px 3px 10px #ccc;
-    width: 400px;
+    width: 365px;
 }
 #progress::-webkit-progress-value {
     border-radius:10px;

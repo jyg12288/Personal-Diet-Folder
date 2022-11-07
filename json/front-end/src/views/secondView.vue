@@ -81,7 +81,7 @@ export default {
     background-color: #f0f0f0;
     border-radius: 10px;
     box-shadow: inset 3px 3px 10px #ccc;
-    width: 400px;
+    width: 365px;
 }
 #progress::-webkit-progress-value {
     border-radius:10px;

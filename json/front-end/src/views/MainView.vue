@@ -4,7 +4,9 @@
             <div class="date">
                 <b><p> 금 16일</p></b>
             </div>
-            <v-icon size="35px">mdi-calendar-blank</v-icon>
+            <router-link to="/calenderView" style="text-decoration:none;">
+                <v-icon size="35px">mdi-calendar-blank</v-icon>
+            </router-link>
         </div>
 
 
@@ -73,9 +75,25 @@
                 <p style="color:#2478FF; display:inline-block; font-size: 13px;">상세 정보</p>
             </router-link>
             
+            
             <div class="block">
+                <router-link to="morningView" style="text-decoration:none; color:black;">
                 <div class="menu">
-                    <b><p style="font-size:15px; width:350px; display:inline-block; color:gray; margin-left: 15px;">아침</p></b>
+                    <b><p style="font-size:15px; width:320px; display:inline-block; color:gray; margin-left: 15px;">아침</p></b>
+                    <img src="../../picture/next.png" style="height:20px; width:20px; "/>
+                    <div class="hr2"></div>
+                    <div class="img">
+                        <img src="../../picture/냉장고.png" style="width:100px; height: 100px;"/>
+                    </div>
+                    <div class="menu_comment">
+                        <p style="height:23px;">사과</p>
+                        <p style="height:23px;">사과</p>
+                        <p style="height:6px;">사과</p>
+                    </div>
+                </div>
+                </router-link>
+                <div class="menu">
+                    <b><p style="font-size:15px; width:320px; display:inline-block; color:gray; margin-left: 15px;">점심</p></b>
                     <img src="../../picture/next.png" style="height:20px; width:20px; "/>
                     <div class="hr2"></div>
                     <div class="img">
@@ -88,20 +106,7 @@
                     </div>
                 </div>
                 <div class="menu">
-                    <b><p style="font-size:15px; width:350px; display:inline-block; color:gray; margin-left: 15px;">점심</p></b>
-                    <img src="../../picture/next.png" style="height:20px; width:20px; "/>
-                    <div class="hr2"></div>
-                    <div class="img">
-                        <img src="../../picture/냉장고.png" style="width:100px; height: 100px;"/>
-                    </div>
-                    <div class="menu_comment">
-                        <p style="height:23px;">사과</p>
-                        <p style="height:23px;">사과</p>
-                        <p style="height:6px;">사과</p>
-                    </div>
-                </div>
-                <div class="menu">
-                    <b><p style="font-size:15px; width:350px; display:inline-block; color:gray; margin-left: 15px;">저녁</p></b>
+                    <b><p style="font-size:15px; width:320px; display:inline-block; color:gray; margin-left: 15px;">저녁</p></b>
                     <img src="../../picture/next.png" style="height:20px; width:20px; "/>
                     <div class="hr2"></div>
                     <div class="img">
@@ -120,23 +125,31 @@
             color="blue"
             grow
             absolute>
+            <router-link to="/MainView" style="text-decoration-line: none; padding-top:3px;">
                 <v-btn value="홈">홈<br/>
                     <v-icon size="30px">mdi-home</v-icon>
                 </v-btn>
+            </router-link>
+            <router-link to="/RecommendView" style="text-decoration-line: none; padding-top:3px;">
                 <v-btn value="추천">추천<br/>
                     <v-icon size="30px">mdi-heart</v-icon>
                 </v-btn>
+            </router-link>
+            <router-link to="/gandanView" style="text-decoration-line: none; padding-top:3px;"> 
                 <v-btn value="식단"><br/>
                      <v-icon size="30px">mdi-plus</v-icon>
                 </v-btn>
+            </router-link>
+            <router-link to="/communityView" style="text-decoration-line: none; padding-top:3px;"> 
                 <v-btn value="커뮤니티">커뮤니티<br/>
                     <v-icon size="30px">mdi-message</v-icon>
                 </v-btn>
-                <router-link to="/detailView" style="text-decoration-line: none;">
+            </router-link>
+            <router-link to="/detailView" style="text-decoration-line: none;">
                 <v-btn value="상세정보">상세정보<br/>
                     <v-icon size="30px">mdi-account</v-icon>
                 </v-btn>
-                </router-link>
+            </router-link>
             </v-bottom-navigation>
         </div>
     </v-app>
@@ -172,7 +185,7 @@ export default {
     height: 40px;
     padding-top: 8px;
     display : inline-block;
-    margin-right: 275px;
+    margin-right: 255px;
     color : white;
     box-shadow: #ccc 2px 2px 2px;
 }
@@ -197,7 +210,7 @@ export default {
 .font2{
     margin-top : 30px;
     margin-left : 20px;
-    margin-right: 220px;
+    margin-right: 200px;
     font-size: 17px;
     display: inline-block;
 }
@@ -213,7 +226,7 @@ export default {
 }
 .linear{
     padding-top : 30px;
-    width : 120px;
+    width : 110px;
     text-align: center;
     display: inline-block;
     margin:5px;
