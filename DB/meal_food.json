@@ -1,0 +1,611 @@
+[
+	{
+		"id" : "meal_001",
+		"food_id" : "D018201",
+		"name" : "보리밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_001",
+		"food_id" : "D018492",
+		"name" : "순두부찌개",
+		"size" : 190,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_001",
+		"food_id" : "D018141",
+		"name" : "시금치나물무침",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_001",
+		"food_id" : "D018017",
+		"name" : "갈치구이",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_001",
+		"food_id" : "D018124",
+		"name" : "총각김치",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_002",
+		"food_id" : "D000054",
+		"name" : "시래기된장국",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_002",
+		"food_id" : "D000357",
+		"name" : "가자미조림",
+		"size" : 100,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_002",
+		"food_id" : "D018266",
+		"name" : "미역줄기볶음",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_002",
+		"food_id" : "D018127",
+		"name" : "가지나물무침",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_002",
+		"food_id" : "D018116",
+		"name" : "배추김치",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_002",
+		"food_id" : "D018239",
+		"name" : "현미밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_003",
+		"food_id" : "D018239",
+		"name" : "현미밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_003",
+		"food_id" : "D018103",
+		"name" : "콩나물국",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_003",
+		"food_id" : "D018274",
+		"name" : "쇠고기채소볶음",
+		"size" : 80,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_003",
+		"food_id" : "D018358",
+		"name" : "상추겉절이",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_003",
+		"food_id" : "D018450",
+		"name" : "연근조림",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_003",
+		"food_id" : "D018116",
+		"name" : "배추김치",
+		"size" : 20,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_004",
+		"food_id" : "D018201",
+		"name" : "보리밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_004",
+		"food_id" : "D018563",
+		"name" : "바지락 미역국",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_004",
+		"food_id" : "D018444",
+		"name" : "병어조림",
+		"size" : 100,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_004",
+		"food_id" : "D018616",
+		"name" : "고구마순나물",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_004",
+		"food_id" : "D018113",
+		"name" : "나박김치",
+		"size" : 20,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_005",
+		"food_id" : "D018240",
+		"name" : "흑미밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_005",
+		"food_id" : "D000049",
+		"name" : "소고기무국",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_005",
+		"food_id" : "D018274",
+		"name" : "쇠고기채소볶음",
+		"size" : 100,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_005",
+		"food_id" : "D018141",
+		"name" : "시금치나물무침",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_005",
+		"food_id" : "D018130",
+		"name" : "고사리나물무침",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_005",
+		"food_id" : "D018116",
+		"name" : "배추김치",
+		"size" : 20,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_006",
+		"food_id" : "D018186",
+		"name" : "검정콩밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_006",
+		"food_id" : "D000054",
+		"name" : "시래기된장국",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_006",
+		"food_id" : "D018433",
+		"name" : "닭조림",
+		"size" : 80,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_006",
+		"food_id" : "D018352",
+		"name" : "미나리무침",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_006",
+		"food_id" : "D018136",
+		"name" : "무나물무침",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_006",
+		"food_id" : "D018276",
+		"name" : "어묵볶음",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_006",
+		"food_id" : "D018116",
+		"name" : "배추김치",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_007",
+		"food_id" : "D018189",
+		"name" : "기장밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_007",
+		"food_id" : "D018470",
+		"name" : "꽃게탕",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_007",
+		"food_id" : "D000363",
+		"name" : "돼지고기메추리알장조림",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_007",
+		"food_id" : "P095345",
+		"name" : "햄감자채볶음",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_007",
+		"food_id" : "D018127",
+		"name" : "가지나물무침",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_007",
+		"food_id" : "D018116",
+		"name" : "배추김치",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "D018239",
+		"name" : "현미밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "D018103",
+		"name" : "콩나물국",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "D018288",
+		"name" : "제육볶음",
+		"size" : 80,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "R000900",
+		"name" : "상추, 적상추, 생것",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "R000725",
+		"name" : "들깻잎, 생것",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "P020700",
+		"name" : "청정원순창쌈장골드",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "D018144",
+		"name" : "애호박볶음",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "D018263",
+		"name" : "멸치볶음",
+		"size" : 20,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_008",
+		"food_id" : "D018117",
+		"name" : "백김치",
+		"size" : 20,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_009",
+		"food_id" : "D018240",
+		"name" : "흑미밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_009",
+		"food_id" : "D000066",
+		"name" : "홍합미역국",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_009",
+		"food_id" : "D000022",
+		"name" : "양념장어구이",
+		"size" : 100,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_009",
+		"food_id" : "P041016",
+		"name" : "닭가슴살단호박찜",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_009",
+		"food_id" : "D018351",
+		"name" : "무생채",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_009",
+		"food_id" : "D018116",
+		"name" : "배추김치",
+		"size" : 20,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_010",
+		"food_id" : "D018166",
+		"name" : "메밀국수",
+		"size" : 300,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_010",
+		"food_id" : "D010533",
+		"name" : "홈샐러드(동절기)",
+		"size" : 100,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_010",
+		"food_id" : "D018404",
+		"name" : "돼지고기완자전",
+		"size" : 100,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_010",
+		"food_id" : "D018389",
+		"name" : "단무지",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_011",
+		"food_id" : "D018239",
+		"name" : "현미밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_011",
+		"food_id" : "P090661",
+		"name" : "소고기 버섯매운탕",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_011",
+		"food_id" : "D000343",
+		"name" : "동태전",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_011",
+		"food_id" : "D018346",
+		"name" : "도토리묵 무침",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_011",
+		"food_id" : "D000109",
+		"name" : "취나물",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_011",
+		"food_id" : "D000270",
+		"name" : "두부김치",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_012",
+		"food_id" : "D000049",
+		"name" : "소고기무국",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_012",
+		"food_id" : "D000007",
+		"name" : "닭갈비",
+		"size" : 70,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_012",
+		"food_id" : "D018135",
+		"name" : "머위대나물무침",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_012",
+		"food_id" : "D018267",
+		"name" : "브로콜리볶음",
+		"size" : 70,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_012",
+		"food_id" : "D018030",
+		"name" : "뱅어포구이",
+		"size" : 15,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_012",
+		"food_id" : "D018116",
+		"name" : "배추김치",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_012",
+		"food_id" : "D018239",
+		"name" : "현미밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_013",
+		"food_id" : "D018217",
+		"name" : "완두콩밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_013",
+		"food_id" : "D000054",
+		"name" : "시래기된장국",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_013",
+		"food_id" : "D000357",
+		"name" : "가자미조림",
+		"size" : 100,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_013",
+		"food_id" : "D018266",
+		"name" : "미역줄기볶음",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_013",
+		"food_id" : "D018127",
+		"name" : "가지나물무침",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_013",
+		"food_id" : "D018116",
+		"name" : "배추김치",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_014",
+		"food_id" : "D018186",
+		"name" : "검정콩밥",
+		"size" : 230,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_014",
+		"food_id" : "D018473",
+		"name" : "냉이된장찌개",
+		"size" : 200,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_014",
+		"food_id" : "D018447",
+		"name" : "쇠고기장조림",
+		"size" : 100,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_014",
+		"food_id" : "D018152",
+		"name" : "콩나물무침",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_014",
+		"food_id" : "D000195",
+		"name" : "쑥갓나물무침",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_014",
+		"food_id" : "D018044",
+		"name" : "조기구이",
+		"size" : 50,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_014",
+		"food_id" : "D018111",
+		"name" : "깍두기",
+		"size" : 30,
+		"unit" : "g"
+	},
+	{
+		"id" : "meal_015",
+		"food_id" : "D018239",
+		"name" : "현미밥",
+		"size" : 230,
+		"unit" : "g"
+	}
+]
