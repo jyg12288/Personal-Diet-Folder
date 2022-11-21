@@ -1,10 +1,10 @@
 <template>
     <v-app>
-        <div style="padding-top : 15px;" >
-            <router-link to="/MainView">
+        <div class="header" >
+            <router-link to="/detailMenu">
                 <img style="height:25px; width:25px; display:inline-block; margin-left: 20px; margin-right:70px; margin-top: 10px;" src="../../picture/left-arrow.png">
             </router-link>
-            <div style="display:inline-block; text-align:center; height:30px; width:200px;  color:#3665ca; font-size : 20px; ">
+            <div style="display:inline-block; text-align:center; height:30px; width:180px;  color:#3665ca; font-size : 20px; ">
                 <b><p>아침</p></b>
             </div>
         </div>
@@ -42,7 +42,7 @@
                 color="green lighten-1" 
                 value="15"/>
 
-            <div class="font5"><b>칼로리</b></div>
+            <div class="font5"><b>탄수화물</b></div>
             <div class="font5" style="text-align:right; color : gray; font-size:14px;"> 0000 / 0000Kcal </div>
             <v-progress-linear 
                 class="progress"
@@ -52,7 +52,7 @@
                 color="green lighten-1" 
                 value="15"/>
 
-            <div class="font5"><b>칼로리</b></div>
+            <div class="font5"><b>단백질</b></div>
             <div class="font5" style="text-align:right; color : gray; font-size:14px;"> 0000 / 0000Kcal </div>
             <v-progress-linear 
                 class="progress"
@@ -62,7 +62,7 @@
                 color="green lighten-1" 
                 value="15"/>
 
-            <div class="font5"><b>칼로리</b></div>
+            <div class="font5"><b>지방</b></div>
             <div class="font5" style="text-align:right; color : gray; font-size:14px;"> 0000 / 0000Kcal </div>
             <v-progress-linear 
                 class="progress"
@@ -82,30 +82,41 @@
             color="blue"
             grow
             absolute>
-                <router-link to="/" style="text-decoration-line: none;">
+            <router-link to="/MainView" style="text-decoration-line: none; padding-top:3px;">
                 <v-btn value="홈">홈<br/>
                     <v-icon size="30px">mdi-home</v-icon>
                 </v-btn>
-                </router-link>
+            </router-link>
+            <router-link to="/RecommendView" style="text-decoration-line: none; padding-top:3px;">
                 <v-btn value="추천">추천<br/>
                     <v-icon size="30px">mdi-heart</v-icon>
                 </v-btn>
+            </router-link>
+            <router-link to="/gandanView" style="text-decoration-line: none; padding-top:3px;"> 
                 <v-btn value="식단"><br/>
-                    <v-icon size="30px">mdi-plus</v-icon>
+                     <v-icon size="30px">mdi-plus</v-icon>
                 </v-btn>
+            </router-link>
+            <router-link to="/communityView" style="text-decoration-line: none; padding-top:3px;"> 
                 <v-btn value="커뮤니티">커뮤니티<br/>
                     <v-icon size="30px">mdi-message</v-icon>
                 </v-btn>
-                <router-link to="/detailView" style="text-decoration-line: none;">
-                    <v-btn value="상세정보">상세정보<br/>
-                        <v-icon size="30px">mdi-account</v-icon>
-                    </v-btn>
-                </router-link>
+            </router-link>
+            <router-link to="/detailView" style="text-decoration-line: none;">
+                <v-btn value="상세정보">상세정보<br/>
+                    <v-icon size="30px">mdi-account</v-icon>
+                </v-btn>
+            </router-link>
             </v-bottom-navigation>
         </div>
     </v-app>
 </template>
 <style scoped>
+.header{
+    padding-top : 15px;
+    display : flex;
+    align-items: center;
+}
 .img{
     height:300px;
     background-color: rgb(219, 219, 219);
@@ -114,10 +125,12 @@
 .comment{
     height : 100px;
     padding : 30px 10px 10px 10px;
+    display : flex;
+    align-items: center;
 }
 
 .font1{
-    width : 98px;
+    width : 92px;
     text-align : center;
     display : inline-block;
     color : gray;
@@ -128,7 +141,7 @@
 }
 .font2{
     display : inline-block;
-    width : 175px;
+    width : 170px;
     margin-top:10px;
 }
 .font3{
@@ -154,7 +167,7 @@
 }
 .font5{
     display : inline-block;
-    width : 185px;
+    width : 170px;
     margin-top:10px;
 }
 .btn{

@@ -6,10 +6,12 @@ import axios from 'axios'
 import VueScrollProgress from "@guillaumebriday/vue-scroll-progress-bar"
 import VueEllipseProgress from 'vue-ellipse-progress';
 
+
 Vue.config.productionTip = false
 Vue.prototype.$http = axios;
 Vue.use(VueScrollProgress);
 Vue.use(VueEllipseProgress);
+
 
 new Vue({
   vuetify,

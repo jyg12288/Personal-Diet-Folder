@@ -65,29 +65,37 @@
         </div>
         <v-footer>
             <div class="footer">
-                <v-bottom-navigation
-                color="blue"
-                grow
-                absolute>
-                    <v-btn value="홈">홈<br/>
-                        <v-icon size="30px">mdi-home</v-icon>
-                    </v-btn>
-                    <v-btn value="추천">추천<br/>
-                        <v-icon size="30px">mdi-heart</v-icon>
-                    </v-btn>
-                    <v-btn value="식단"><br/>
-                        <v-icon size="30px">mdi-plus</v-icon>
-                    </v-btn>
-                    <v-btn value="커뮤니티">커뮤니티<br/>
-                        <v-icon size="30px">mdi-message</v-icon>
-                    </v-btn>
-                    <router-link to="/detailView" style="text-decoration-line: none;">
-                    <v-btn value="상세정보">상세정보<br/>
-                        <v-icon size="30px">mdi-account</v-icon>
-                    </v-btn>
-                    </router-link>
-                </v-bottom-navigation>
-            </div>
+            <v-bottom-navigation
+            color="blue"
+            grow
+            absolute>
+            <router-link to="/MainView" style="text-decoration-line: none; padding-top:3px;">
+                <v-btn value="홈">홈<br/>
+                    <v-icon size="30px">mdi-home</v-icon>
+                </v-btn>
+            </router-link>
+            <router-link to="/RecommendView" style="text-decoration-line: none; padding-top:3px;">
+                <v-btn value="추천">추천<br/>
+                    <v-icon size="30px">mdi-heart</v-icon>
+                </v-btn>
+            </router-link>
+            <router-link to="/gandanView" style="text-decoration-line: none; padding-top:3px;"> 
+                <v-btn value="식단"><br/>
+                     <v-icon size="30px">mdi-plus</v-icon>
+                </v-btn>
+            </router-link>
+            <router-link to="/communityView" style="text-decoration-line: none; padding-top:3px;"> 
+                <v-btn value="커뮤니티">커뮤니티<br/>
+                    <v-icon size="30px">mdi-message</v-icon>
+                </v-btn>
+            </router-link>
+            <router-link to="/detailView" style="text-decoration-line: none;">
+                <v-btn value="상세정보">상세정보<br/>
+                    <v-icon size="30px">mdi-account</v-icon>
+                </v-btn>
+            </router-link>
+            </v-bottom-navigation>
+        </div>
         </v-footer>
     </v-app>
 </template>
