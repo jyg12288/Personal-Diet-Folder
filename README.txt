@@ -7,4 +7,4 @@
 
 현주가 수정함
 
-데이터베이스 테이블 구조 : https://dbdiagram.io/d/636864bac9abfc611170a7e0
+데이터베이스 테이블 구조 : https://www.erdcloud.com/d/tfLt8mizzaH64DuFA
