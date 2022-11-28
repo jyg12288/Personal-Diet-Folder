@@ -2,17 +2,18 @@ create database capstone;
 
 CREATE TABLE `users` (
   `id` varchar(30) PRIMARY KEY,
-  `name` varchar(255) NOT NULL,
+  `name` varchar(30) NOT NULL,
   `height` int NOT NULL,
   `weight` int NOT NULL,
-  `gender` varchar(255) NOT NULL
+  `gender` varchar(10) NOT NULL,
+  `birth` date not null
 ) DEFAULT CHARSET=utf8 COMMENT '사용자 정보';
 
 CREATE TABLE `food` (
   `id` varchar(30) NOT NULL COMMENT '식품코드',
-  `name` varchar(255) NOT NULL COMMENT '식품명',
-  `mfg` varchar(255) DEFAULT NULL COMMENT '제조사/유통사',
-  `category` varchar(255) DEFAULT NULL COMMENT '카테고리',
+  `name` varchar(30) NOT NULL COMMENT '식품명',
+  `mfg` varchar(100) DEFAULT NULL COMMENT '제조사/유통사',
+  `category` varchar(100) DEFAULT NULL COMMENT '카테고리',
   `unit` varchar(8) DEFAULT NULL COMMENT '내용량 단위 - g, mL',
   `serving_size` int(11) DEFAULT NULL COMMENT '1회 제공량',
   `total_size` int(11) DEFAULT NULL COMMENT '총 내용량',
@@ -34,14 +35,14 @@ ALTER TABLE `food` ADD FOREIGN KEY (`user_id`) REFERENCES `users` (`id`);
 
 CREATE TABLE `meal` ( 
   `id` varchar(30) primary key,
-  `time` varchar(255) NOT NULL COMMENT '아침, 점심, 저녁 ...',
+  `time` varchar(10) NOT NULL COMMENT '아침, 점심, 저녁 ...',
   `photo` mediumblob
 ) DEFAULT CHARSET=utf8 COMMENT '식단';
 
 
 CREATE TABLE `preference` ( 
   `id` varchar(30) PRIMARY KEY,
-  `name` varchar(255)
+  `name` varchar(30)
 ) DEFAULT CHARSET=utf8 COMMENT '알러지, 기피 성분';
 
 CREATE TABLE `community` (
